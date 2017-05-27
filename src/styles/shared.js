@@ -7,12 +7,14 @@ export const COLORS = {
 	headerText: '#fff',
 	muted: '#8e8786',
 	link: '#8B008B',
-	accentGroup: ['#d31d65', '#751c53', '#c248c0', '#7d6e8b', '#bbc6f7']
-}
+	primary: '#FFFFF0',
+	secondary: '#98FB98',
+	territory: '',
+};
 
 export const COMMON_STYLES = StyleSheet.create({
 	pageContainer: {
-		backgroundColor: COLORS.background,
+		backgroundColor: COLORS.primary,
 		flex: 1,
 		marginTop: 0,
 		paddingTop: 20,

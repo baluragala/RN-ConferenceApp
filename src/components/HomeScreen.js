@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 
 import * as sharedStyles from '../styles/shared';
+import ConferenceList from './ConferenceList';
 
 // Set the status bar for iOS to light
 StatusBar.setBarStyle('light-content');
@@ -49,9 +50,7 @@ export default class HomeScreen extends Component {
 					selected={this.state.tab === 'conferenceList'}
 					onPress={() => this.setState({ tab: 'conferenceList' })}
 				>
-					<View style={sharedStyles.COMMON_STYLES.titleContainer}>
-						<Text style={[sharedStyles.COMMON_STYLES.title]}>Conference List</Text>
-					</View>
+					<ConferenceList/>
 				</TabBarIOS.Item>
 				<TabBarIOS.Item
 					title="Sponsors"
