@@ -1,0 +1,1 @@
+1. create src folder with components and styles as sub folders
